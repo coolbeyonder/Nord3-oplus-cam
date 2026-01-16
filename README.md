@@ -3,7 +3,7 @@
 ## Info
 * **Device:** OnePlus Nord 3 5G
 * **SoC:** MediaTek Dimensity 9000 (MT6983)
-* **Status:** Complete Cam Repo (Ready for Test)
+* **Status:** Complete Vendor Tree (LiWhy Style)
 * **File Count:** 444 Files
 
 ## Usage
@@ -19,7 +19,11 @@ In your `BoardConfig.mk`:
 -include vendor/oneplus/nord3/proprietary/camera/BoardConfigVendor.mk
 ```
 
-##  How to Use in Your ROM Build
+## Credits
+* **LiWhy** for the repository structure logic.
+* **Abhinav Jha** for the dump and porting.
+
+## 📦 How to Use in Your ROM Build
 
 To include this camera in your build, add the following to your local manifest (e.g., `.repo/local_manifests/nord3_camera.xml`):
 
@@ -33,8 +37,7 @@ To include this camera in your build, add the following to your local manifest (
 </manifest>
 ```
 
-Then sync your repo using this command:
-
+Then sync your repo:
 ```bash
 repo sync -c --force-sync --no-clone-bundle --no-tags
 ```
