@@ -19,8 +19,7 @@ In your `BoardConfig.mk`:
 -include vendor/oneplus/nord3/proprietary/camera/BoardConfigVendor.mk
 ```
 
-
-## 📦 How to Use in Your ROM Build
+##  How to Use in Your ROM Build
 
 To include this camera in your build, add the following to your local manifest (e.g., `.repo/local_manifests/nord3_camera.xml`):
 
@@ -32,3 +31,10 @@ To include this camera in your build, add the following to your local manifest (
              remote="github"
              revision="main" />
 </manifest>
+```
+
+Then sync your repo using this command:
+
+```bash
+repo sync -c --force-sync --no-clone-bundle --no-tags
+```
