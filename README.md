@@ -32,5 +32,3 @@ To include this camera in your build, add the following to your local manifest (
              remote="github"
              revision="main" />
 </manifest>
-Then sync your repo:
-repo sync -c --force-sync --no-clone-bundle --no-tags
