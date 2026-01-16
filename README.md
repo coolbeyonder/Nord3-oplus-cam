@@ -19,6 +19,4 @@ In your `BoardConfig.mk`:
 -include vendor/oneplus/nord3/proprietary/camera/BoardConfigVendor.mk
 ```
 
-## Credits
-* **LiWhy** for the repository structure logic.
-* **Abhinav Jha** for the dump and porting.
+
