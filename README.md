@@ -3,7 +3,7 @@
 ## Info
 * **Device:** OnePlus Nord 3 5G
 * **SoC:** MediaTek Dimensity 9000 (MT6983)
-* **Status:** Complete Vendor Tree (LiWhy Style)
+* **Status:** Complete Cam Repo (Ready for Test)
 * **File Count:** 444 Files
 
 ## Usage
