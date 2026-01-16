@@ -19,10 +19,6 @@ In your `BoardConfig.mk`:
 -include vendor/oneplus/nord3/proprietary/camera/BoardConfigVendor.mk
 ```
 
-## Credits
-* **LiWhy** for the repository structure logic.
-* **Abhinav Jha** for the dump and porting.
-
 ## 📦 How to Use in Your ROM Build
 
 To include this camera in your build, add the following to your local manifest (e.g., `.repo/local_manifests/nord3_camera.xml`):
