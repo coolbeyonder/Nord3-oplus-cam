@@ -1,0 +1,25 @@
+# OnePlus Nord 3 Camera Properties
+# Auto-generated for Nord3-oplus-cam
+
+# Identity
+ro.product.model=CPH2491
+ro.product.odm.model=CPH2491
+ro.product.vendor.model=CPH2491
+ro.product.brand=OnePlus
+ro.product.manufacturer=OnePlus
+ro.vendor.oplus.market.name=OnePlus Nord 3 5G
+
+# Camera & Media
+ro.oplus.camera.name=com.oplus.camera
+ro.com.google.lens.oem_camera_package=com.oplus.camera
+ro.com.google.lens.oem_image_package=com.oneplus.gallery,com.oplus.screenshot
+ro.vendor.oplus.camera.backCamSize=50MP+8MP+2MP
+ro.vendor.oplus.camera.frontCamSize=16MP
+ro.vendor.oplus.camera.isHasselbladCamera=0
+ro.vendor.oplus.camera.isSupportExplorer=0
+
+# Hardware/System
+ro.board.platform=mt6983
+ro.soc.manufacturer=Mediatek
+ro.soc.model=MT6983
+ro.vendor.soc.model=MT6983
