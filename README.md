@@ -20,3 +20,17 @@ In your `BoardConfig.mk`:
 ```
 
 
+## 📦 How to Use in Your ROM Build
+
+To include this camera in your build, add the following to your local manifest (e.g., `.repo/local_manifests/nord3_camera.xml`):
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="vendor/oneplus/nord3/proprietary/camera"
+             name="CoolBeyonder/Nord3-oplus-cam"
+             remote="github"
+             revision="main" />
+</manifest>
+Then sync your repo:
+repo sync -c --force-sync --no-clone-bundle --no-tags
